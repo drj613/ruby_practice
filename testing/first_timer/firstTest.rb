@@ -80,6 +80,9 @@ puts "grabbing window handles"
 # window handles = tabs in this case
 window_handles = driver.window_handles
 puts window_handles
+
+
 #  THIS IS HOW YOU SWITCH WINDOWS!!1
 driver.switch_to.window(window_handles[0])
+
 sleep 1
